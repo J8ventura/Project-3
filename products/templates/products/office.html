@@ -1,0 +1,56 @@
+{% extends 'products/layout.html' %}
+
+{%block content %}
+    <h1>Office Products</h1>
+
+    <div class="CartContainer">
+        <div class="Header">
+            <h3 class="Heading">Available Products</h3>
+            <h5>Prices</h5>
+        </div>
+
+        <div class="Cart-Items" id="product-5">
+              <div class="image-box">
+                <a href="http://127.0.0.1:8000/pencils/">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO0g3h2bXQFsaw0oCxFHAtmqTmQsq3moAwuw&usqp=CAU" height='100px' width='200px' />
+                </a>
+            </div>
+              <div class="about">
+                  <h1 class="title">Pencils</h1>
+                  
+                  
+              </div>
+              <div class="action">
+                <button class="add_cart_btn">Add to Cart</button>
+               </div>
+              <div class="prices">
+                  <div class="amount">$1.19</div>
+                  
+              </div>
+        </div>
+
+        <div class="Cart-Items" id="product-6">
+              <div class="image-box">
+                <a href ="http://127.0.0.1:8000/desk_chairs/"/>
+                  <img src="https://nypost.com/wp-content/uploads/sites/2/2021/02/desk-chairs-sales.jpg?quality=75&strip=all&w=744" height='100px' width='200px' />
+                </a>
+                </div>
+              <div class="about">
+                  <h1 class="title">Desk Chairs</h1>
+                  
+                 
+              </div>
+              <div class="action">
+                <button class="add_cart_btn">Add to Cart</button>
+               </div>
+              <div class="prices">
+                  <div class="amount">$3.79</div>
+                  
+              </div>
+        </div>
+      
+
+ </div>
+
+
+{%endblock content%}

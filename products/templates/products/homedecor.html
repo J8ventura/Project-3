@@ -1,0 +1,58 @@
+{% extends 'products/layout.html' %}
+
+{%block content %}
+    <h1>Home & Decor</h1>
+
+    
+    <div class="CartContainer">
+        <div class="Header">
+            <h3 class="Heading">Available Products</h3>
+            <h5>Prices</h5>
+        </div>
+
+        <div class="Cart-Items" id="product-1">
+              <div class="image-box">
+                <a href="http://127.0.0.1:8000/throw_pillows/">
+                  <img src="https://cdn11.bigcommerce.com/s-iukl88uj22/product_images/uploaded_images/artical-img2.jpg" height='100px' width='200px' />
+                </a>
+            </div>
+              <div class="about">
+                  <h1 class="title">Throw Pillows</h1>
+                  
+                  
+              </div>
+              <div class="action">
+               <button class="add_cart_btn">Add to Cart</button>
+              </div>
+              
+              <div class="prices">
+                  <div class="amount">$2.99</div>
+                  
+              </div>
+        </div>
+
+        <div class="Cart-Items" id="product-2">
+              <div class="image-box">
+                <a href ="http://127.0.0.1:8000/rugs/"/>
+                  <img src="https://static.athome.com/image/upload/v1672265955/webcontent/newyears/NewHeroes/FY24Q1_CD_Rugs_Under100_EH.jpg" height='100px' width='200px' />
+                </a>
+                </div>
+              <div class="about">
+                  <h1 class="title">Rugs</h1>
+                  
+                 
+              </div>
+              <div class="action">
+                <button class="add_cart_btn">Add to Cart</button>
+               </div>
+              
+              <div class="prices">
+                  <div class="amount">$9.99</div>
+                  
+              </div>
+        </div>
+      
+
+ </div>
+
+{%endblock content%}

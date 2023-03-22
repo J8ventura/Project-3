@@ -1,0 +1,75 @@
+
+{% extends 'products/layout.html' %}
+
+{%block content %}
+    <h1>JOHNNY'S SHOP</h1>
+        <div class="cards">
+            <div class="card" style="width: 25rem;" >
+              <img src="https://www.thespruce.com/thmb/ywHTET6XfU7pVy1KAMPfHS1QZZk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/living-room-decor-ideas-5442837-hero-8b6e540e13f9457a84fe9f9e26ea2e5c.jpg" class="card-img-top" width="400" height="200">
+              <div class="card-body">
+                <h5 class="card-title">Home & Decor</h5>
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="http://127.0.0.1:8000/homedecor/" class="btn btn-primary">Go</a>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem;">
+              <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/featured-image-kitchen-renovation.jpg"class="card-img-top" width="400" height="200">
+              <div class="card-body">
+                <h5 class="card-title">Kitchen</h5>
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="http://127.0.0.1:8000/kitchen/" class="btn btn-primary">Go</a>
+              </div>
+            </div>
+            <div class="card" style="width: 25rem;">
+              <img src="https://cdn1.epicgames.com/ue/product/Screenshot/HighresScreenshot00006-1920x1080-4492761cda27fc89c9cc1e4979551e95.jpg?resize=1&w=1920" class="card-img-top" width="400" height="200">
+              <div class="card-body">
+                <h5 class="card-title">Office</h5>
+                <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="http://127.0.0.1:8000/office/" class="btn btn-primary">Go</a>
+              </div>
+            </div>
+        </div>
+
+        <h1>Featured</h1>
+
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="http://127.0.0.1:8000/throw_pillows/">
+                <img src="https://cdn11.bigcommerce.com/s-iukl88uj22/product_images/uploaded_images/artical-img2.jpg" class="d-block w-100">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="http://127.0.0.1:8000/stools/">
+                <img src="https://cdn.tlcinteriors.com.au/wp-content/uploads/2021/09/coco-republic-black-melrose-bar-stool-with-high-back-1536x747.jpeg" class="d-block w-100">
+                </a>
+            </div>
+              <div class="carousel-item">
+                <a href="http://127.0.0.1:8000/pencils/">
+                <img src="https://www.thesprucecrafts.com/thmb/EGKKFA2rvr5XJkkZo5k5PUSJS3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pencils-59f712dcc412440011a3fe06.jpg" class="d-block w-100">
+                </a>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+        </div>
+        
+
+
+
+{%endblock content%}
+

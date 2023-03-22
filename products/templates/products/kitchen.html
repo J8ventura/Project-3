@@ -1,0 +1,56 @@
+
+{% extends 'products/layout.html' %}
+
+{%block content %}
+    <h1>Kitchen Products</h1>
+
+    <div class="CartContainer">
+            <div class="Header">
+                <h3 class="Heading">Available Products</h3>
+                <h5>Prices</h5>
+            </div>
+    
+            <div class="Cart-Items" id="product-3">
+                  <div class="image-box">
+                    <a href="http://127.0.0.1:8000/stools/">
+                      <img src="https://cdn.tlcinteriors.com.au/wp-content/uploads/2021/09/coco-republic-black-melrose-bar-stool-with-high-back-1536x747.jpeg" height='100px' width='200px' />
+                    </a>
+                </div>
+                  <div class="about">
+                      <h1 class="title">Stool Set</h1>
+                      
+                      
+                  </div>
+                  <div class="action">
+                    <button class="add_cart_btn">Add to Cart</button>
+                   </div>
+                  <div class="prices">
+                      <div class="amount">$4.29</div>
+                      
+                  </div>
+            </div>
+    
+            <div class="Cart-Items" id="product-4">
+                  <div class="image-box">
+                    <a href ="http://127.0.0.1:8000/dishes/"/>
+                      <img src="https://sep.turbifycdn.com/ay/yhst-11981746382951/cherry-blossom-13.jpg" height='100px' width='200px' />
+                    </a>
+                    </div>
+                  <div class="about">
+                      <h1 class="title">Dishes Set</h1>
+                      
+                     
+                  </div>
+                  <div class="action">
+                    <button class="add_cart_btn">Add to Cart</button>
+                   </div>
+                  <div class="prices">
+                      <div class="amount">$7.29</div>
+                      
+                  </div>
+            </div>
+    </div>
+    
+{%endblock content%}
+
+

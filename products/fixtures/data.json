@@ -1,0 +1,45 @@
+[
+    {
+      "model": "products.product",
+      "pk": 1,
+      "fields": {
+        "name": "Shampoo",
+        "category": "Personal Care",
+        "cost": "4.50"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "name": "Pencil",
+        "category": "Office Supplies",
+        "cost": "1.50"
+      }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+          "name": "Notebook",
+          "category": "Office Supplies",
+          "cost": "2.50"
+        }
+    },
+    {
+      "model": "products.shoppingcart",
+      "pk": 1,
+      "fields": {
+          "product": 1,
+          "quantity": 3
+      }
+  },
+  {
+      "model": "products.shoppingcart",
+      "pk": 2,
+      "fields": {
+          "product": 2,
+          "quantity": 5
+      }
+  }
+  ]
